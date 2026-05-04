@@ -1,0 +1,28 @@
+{
+  "name": "clip-path-generator",
+  "displayName": "Clip Path Generator",
+  "description": "Simple clip-path CSS generator",
+  "version": "0.0.1",
+    "author": "Komail Abbas",
+  "publisher": "SyedKomailAbbas",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": ">=1.80.0"
+  },
+     "repository": {
+    "type": "git",
+    "url": "https://github.com/Komail003/clip-path-generator.git"
+  },
+  "activationEvents": [
+    "onCommand:clip-path.open"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "clip-path.open",
+        "title": "Open Clip Path Generator"
+      }
+    ]
+  }
+}
